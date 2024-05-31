@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.lay 
+{
+  padding: 10px;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 30px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.layout 
+{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.etw 
+{
+  margin-right: 900px;
+  width: 8%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ri-id-card-line
+{
+  font-size: 90px;
+}
+.shirt 
+{
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 2px solid black;
+}
+.shirt>img 
+{
+  width: 100%;
+  padding: 20px;
+  
+}
+.shirt>img:hover 
+{
+  transition: 2s;
+  transform: scale(1.2);
 }
