@@ -9,6 +9,7 @@ function Layout()
           <Link to='/'  className='lay'>Home</Link>
           <Link to='/crud'  className='lay'>Crud</Link>
           <Link to='/create'  className='lay'></Link>
+          <Link to='/formvalid' className='lay'>Login</Link>
         </div>
     );
 }
